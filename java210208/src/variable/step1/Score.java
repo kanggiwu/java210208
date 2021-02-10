@@ -11,9 +11,5 @@ public class Score {
 		this.math = math;
 		this.eng = eng;
 	}
-	public static void main(String[] args) {
-
-		
-	}
 
 }

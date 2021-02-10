@@ -25,7 +25,10 @@ public class UsingOtherClass {
 		double eng = sc.nextInt();
 		Score s = new Score(kor,math,eng);
 		
-		System.out.println("입력한 점수의 평균======>"+as.avgScroe(ss.sumScore(s.kor,s.math,s.eng), 3));
+		double sum = ss.sumScore(s.kor,s.math,s.eng);
+		double avg = as.avgScroe(sum,3);
+		System.out.println("입력한 점수의 평균======>"+avg);
+		
 	}
 
 }
