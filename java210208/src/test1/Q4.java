@@ -14,5 +14,4 @@ public class Q4 {
 	private void doStuff(int x) {
 		System.out.println("doStuff x = " + x++);//해당되는 x는 파라미터 x변수이기 때문에 지역변수이다. 해당 메소드를 나가면 사라진다.?
 	}
-
 }
