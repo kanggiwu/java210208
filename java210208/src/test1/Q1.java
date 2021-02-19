@@ -1,10 +1,10 @@
 package test1;
 
-public class Question1 {
+public class Q1 {
 	double e_weight = 0;
 	double m_weight = 0;
 	
-	public Question1(double e_weight) {
+	public Q1(double e_weight) {
 		this.e_weight = e_weight;
 		this.m_weight = e_weight*0.17;
 	}

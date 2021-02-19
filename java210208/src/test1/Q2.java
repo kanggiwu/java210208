@@ -8,9 +8,9 @@ public class Q2 {
 		System.out.println("1부터 입력받은 정수의 값까지 더한 값을 출력합니다.");
 		System.out.println("값을 입력해주세요.");
 		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
+		int end = sc.nextInt();
 		int sum=0;
-		for(int i = 1; i<=n;i++) {
+		for(int i = 1; i<=end;i++) {
 			sum +=i;
 		}
 		System.out.println(sum);
