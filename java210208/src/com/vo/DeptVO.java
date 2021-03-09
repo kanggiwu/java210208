@@ -19,6 +19,11 @@ public class DeptVO {
 		public DeptVO(int deptno) {
 			this.deptno = deptno;
 		}
+		public DeptVO(int deptno, String dname, String loc) {
+			this.deptno = deptno;
+			this.dname = dname;
+			this.loc = loc;
+		}
 		
 		public int getDeptno() {
 			return deptno;
@@ -30,11 +35,11 @@ public class DeptVO {
 		public String getDname() {
 			return dname;
 		}
-		public void setDname(String dname) {
-			this.dname = dname;
-		}
 		public String getLoc() {
 			return loc;
+		}
+		public void setDname(String dname) {
+			this.dname = dname;
 		}
 		public void setLoc(String loc) {
 			this.loc = loc;

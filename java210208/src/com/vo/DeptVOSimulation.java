@@ -1,5 +1,4 @@
 package com.vo;
-
 public class DeptVOSimulation {
 	
 	void methodB(){}//반환값 역할x
